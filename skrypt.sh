@@ -32,7 +32,7 @@ case $1 in
     ;;
   --init)
     echo "Klonowanie repozytorium..."
-    git clone <TWOJE_REPOZYTORIUM_URL> cloned_repo
+    git clone https://github.com/AdamLyskawa/Lab4-GIT.git cloned_repo
     export PATH=$PATH:$(pwd)/cloned_repo
     echo "Dodano cloned_repo do PATH"
     ;;
